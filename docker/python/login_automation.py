@@ -27,7 +27,7 @@ try:
     login_button = driver.find_element(By.XPATH, '//button[@type="submit"]')
 
     username_field.send_keys('admin@admin.com')
-    password_field.send_keys('admin')
+    password_field.send_keys('password')
     login_button.click()
 
     WebDriverWait(driver, 10).until(EC.url_changes('http://localhost:8000/login'))

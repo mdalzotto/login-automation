@@ -25,6 +25,18 @@ após finalizar
 
 após finalizar
 
+`php artisan db:seed
+`
+
+após finalizar
+
 `exit`
 
 **Basta acessar: http://localhost:8000**
+
+
+Para realizar login use o Usuário
+
+**admin@admin.com** ou **user@user.com**
+
+ambos com a **senha "password"**
